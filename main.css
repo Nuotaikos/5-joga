@@ -1,22 +1,32 @@
-body {  
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
 
 
 header,
 main
 {
-    background-color: bisque; 
+    display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px); 
 }
 
 img {
+    height: 46px;
 }
 
 nav {
+    float: right;
+    margin-top: 13px;
 }
 
 a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 main {
