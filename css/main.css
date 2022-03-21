@@ -39,11 +39,11 @@ nav > a {
 }
 
 nav > a:hover {
-    border-bottom: 2px solid tomato;  
+    border-bottom: 2px solid #FE4521;  
 }
 
 nav > a:first-child {
-border-bottom: 2px solid tomato;
+border-bottom: 2px solid #FE4521;
 }
 
 body > main {
@@ -63,7 +63,7 @@ div > h1 {
     font-weight: normal;
 }
 h1 > span {
-    color: tomato;
+    color: #FE4521;
 }
 div > p {   
     margin-bottom: 25px;
@@ -76,12 +76,13 @@ div > a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    background-color: tomato;
+    background-color: #FE4521;
 }
 
 main > img {
 width: 55%;
 height: 300px;
 float: left;
+object-fit: contain;
 
 }
